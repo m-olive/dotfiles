@@ -31,7 +31,7 @@ set $mod Mod4
 # startup
 exec_always --no-startup-id killall polybar
 exec_always --no-startup-id ~/.config/polybar/launch.sh
-exec_always --no-startup-id feh --bg-scale ~/dotfiles/backgrounds/octospace.jpeg
+exec_always --no-startup-id feh --bg-scale ~/dotfiles/.config/backgrounds/octospace.jpeg
 exec_always --no-startup-id picom --config ~/.config/picom/picom.conf -b
 exec_always --no-startup-id xautolock -time 60 -locker "betterlockscreen -l --off 3600 --show-layout" &
 exec_always --no-startup-id xset s off
